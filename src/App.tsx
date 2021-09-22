@@ -1,6 +1,6 @@
 import React from "react";
-import dayjs from "dayjs";
 import { Box, Text } from "@chakra-ui/react";
+import dayjs from "dayjs";
 import dayoftheyear from "dayjs/plugin/dayOfYear";
 import utc from "dayjs/plugin/utc";
 import weekOfTheYear from "dayjs/plugin/weekOfYear";
@@ -15,6 +15,7 @@ function App() {
 
   return (
     <Box
+      bg="#222b37"
       display="flex"
       justifyContent="center"
       alignItems="center"
