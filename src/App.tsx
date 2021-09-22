@@ -14,27 +14,36 @@ function App() {
   const thisWeek = dayjs().week();
 
   return (
-    <Box bg="#222b37">
-      <Box
-        color="gray.200"
-        justifyContent="center"
-        alignItems="center"
-        display="flex"
-      >
-        <Text mr="5">Day of the Year:</Text>
-        <Box color="white" fontSize="3xl">
-          {today.toString()}
+    <Box
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      h="100vh"
+      w="100vw"
+    >
+      <Box bg="#222b37">
+        <Box
+          w="96"
+          color="gray.200"
+          justifyContent="center"
+          alignItems="center"
+          display="flex"
+        >
+          <Text mr="5">Day of the Year:</Text>
+          <Box color="white" fontSize="3xl">
+            {today.toString()}
+          </Box>
         </Box>
-      </Box>
-      <Box
-        color="gray.200"
-        justifyContent="center"
-        alignItems="center"
-        display="flex"
-      >
-        <Text mr="5">Week of the Year:</Text>
-        <Box color="white" fontSize="3xl">
-          {thisWeek}
+        <Box
+          color="gray.200"
+          justifyContent="center"
+          alignItems="center"
+          display="flex"
+        >
+          <Text mr="5">Week of the Year:</Text>
+          <Box color="white" fontSize="3xl">
+            {thisWeek}
+          </Box>
         </Box>
       </Box>
     </Box>
