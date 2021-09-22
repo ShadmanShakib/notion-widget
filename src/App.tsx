@@ -23,7 +23,7 @@ function App() {
     >
       <Box bg="#222b37">
         <Box
-          w="72"
+          w="80"
           color="gray.200"
           justifyContent="center"
           alignItems="center"
