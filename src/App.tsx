@@ -23,14 +23,14 @@ function App() {
     >
       <Box bg="#222b37">
         <Box
-          w="96"
+          w="72"
           color="gray.200"
           justifyContent="center"
           alignItems="center"
           display="flex"
         >
           <Text mr="5">Day of the Year:</Text>
-          <Box color="white" fontSize="3xl">
+          <Box color="gray.100" fontSize="3xl">
             {today.toString()}
           </Box>
         </Box>
@@ -41,7 +41,7 @@ function App() {
           display="flex"
         >
           <Text mr="5">Week of the Year:</Text>
-          <Box color="white" fontSize="3xl">
+          <Box color="gray.100" fontSize="3xl">
             {thisWeek}
           </Box>
         </Box>
